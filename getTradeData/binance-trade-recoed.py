@@ -76,7 +76,6 @@ if __name__ == '__main__':
         # 2017-9-1
         start_time = 1504253880000
         end_time = 1679500740000  # 2023-3-22 23:59:00 1679363700000
-        symbol = "ETHUSDT"  # 交易对
         interval = "5m"  # 时间间隔
         try:
             get_klines_from_time(symbol, interval, start_time, end_time)
