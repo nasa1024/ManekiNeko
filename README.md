@@ -16,11 +16,11 @@ python getTradeData.py
 - you can change the end time in getTradeData.py
 
 # todo
-- [ ] add more exchange
-- [ ] add more interval
-- [ ] add more symbol
-- [ ] add more start time
-- [ ] add more end time
+- [x] add more exchange
+- [x] add more interval
+- [x] add more symbol
+- [x] add more start time
+- [x] add more end time
 
 # license
 MIT
