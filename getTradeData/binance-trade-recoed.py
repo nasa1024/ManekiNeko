@@ -65,18 +65,16 @@ def get_klines_from_time(symbol, interval, start_time, end_time):
 if __name__ == '__main__':
     # 交易对列表
     symbol_list = ["ETHUSDT", "BTCUSDT", "LTCUSDT", "BCHUSDT", "EOSUSDT", "XRPUSDT", "ETCUSDT", "ADAUSDT",  "ZECUSDT", "BNBUSDT",
-                   "LINKUSDT",  "USDCUSDT", "MATICUSDT", "FILUSDT","AXSUSDT","DODOUSDT",
-                   "BUSDUSDT",
-                   "DOGEUSDT",
-                   "SUSHIUSDT",
+                   "LINKUSDT",  "USDCUSDT", "MATICUSDT", "FILUSDT","AXSUSDT","DODOUSDT","INJUSDT","CFXUSDT","ENSUSDT","LINAUSDT",
+                   "DOGEUSDT", "UNIUSDT", "XLMUSDT", "TRXUSDT", "XMRUSDT", "XTZUSDT", "ATOMUSDT", "VETUSDT", "NEOUSDT", "QTUMUSDT",
+                   "SUSHIUSDT","OPUSDT","ICPUSDT",
                    "AVAXUSDT", "DOTUSDT",  "SOLUSDT",  "AAVEUSDT"]
     conn = sqlite3.connect('binance.db')
     for symbol in symbol_list:
         create_table(symbol)
-        # 2017-9-1
-        start_time = 1504253880000
-        end_time = 1679500740000  # 2023-3-22 23:59:00 1679363700000
-        interval = "5m"  # 时间间隔
+        start_time = 1504253880000 # 2017-9-1 00:00:00 1504253880000
+        end_time = 1685548800000  # 2023-06-01 00:00:00 1685548800000                   
+        interval = "15m"  # 时间间隔
         try:
             get_klines_from_time(symbol, interval, start_time, end_time)
         except Exception as e:
