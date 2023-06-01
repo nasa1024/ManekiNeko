@@ -1,4 +1,4 @@
-# Lying2EarnMoney
+# ManekiNeko（招财猫）
 > this project is used to explore the possibility of lying to earn money in crypto currency  
 
 including following parts:
