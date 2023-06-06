@@ -1,9 +1,8 @@
 # notebook
 .ipynb_checkpoints
 
-# model
-saved_models/
+
 
 # data
-xGboost/.csv
 .txt
+.csv
