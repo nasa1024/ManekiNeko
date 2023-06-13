@@ -5,5 +5,5 @@
 saved_models/
 
 # data
-xGboost/.csv
+xGboost/*.csv
 .txt
