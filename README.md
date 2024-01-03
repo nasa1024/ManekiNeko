@@ -4,7 +4,7 @@
 including following parts:
 - [x] `getTradeData` get trade data from binance and save to sqlite
 - [x] `lstmTrain` using lstm to predict the price of crypto currency
-- [ ] `xGBoost` using XGBoost to predict the price of crypto currency
+- [x] `xGBoost` using XGBoost to predict the price of crypto currency
 - [ ] `randomForest` using random forest to predict the price of crypto currency
 - [ ] `transformer` using Transformer to predict the price of crypto currency
 - [ ] `informer` using Informer to predict the price of crypto currency
