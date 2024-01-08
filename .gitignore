@@ -7,3 +7,9 @@ saved_models/
 # data
 xGboost/*.csv
 .txt
+
+rats/*.ini
+
+rats/*.txt
+rats/*.joblib
+rats/*.json
